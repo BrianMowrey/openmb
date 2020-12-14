@@ -7,20 +7,13 @@ import json
 
 def iterate_file_versions(repo_path, subdir, filepath, ref="main"):
     repo = git.Repo(repo_path, odbt=git.GitDB)
-    print(f"iterate_file_version: {filepath}")
+    
     commits = reversed(list(repo.iter_commits(ref, paths=subdir)))
     for commit in commits:
-        print(f"========")
-        print(f"commit={commit}")
-        print(f"committer: {commit.committer}")
-        print(f"trees: {commit.tree.trees}")
-        #print(f"blobs: {commit.tree.blobs}")
+        # sub directories basically...    
         for tree in commit.tree.trees:
-            print(f"tree: {tree}")
             for b in tree.blobs:
 
-                print(f"blob: {b}")
-                print(f"name: {b.name}")
                 if b.name == filepath:
                 
                     yield commit.committed_datetime, commit.hexsha, b.data_stream.read()
@@ -93,14 +86,14 @@ def save_hospital_snapshot(db, snapshot, when, hash, lookup):
     # If outage does not exist, save it first
     
     data = dict()
-    print(f"[save_hospital] snapshot={snapshot}")
+    
     for field, value in snapshot.get('attributes').items():
         data[lookup.get(field)] = value
     
     
     data['geometry_x'] = snapshot.get('geometry').get('x')
     data['geometry_y'] = snapshot.get('geometry').get('y')
-    print(f"data={data}")
+    
     
     try:
         snapshot_id = list(db["snapshots"].rows_where("hash = ?", [hash]))[0]["id"]
@@ -163,7 +156,6 @@ if __name__ == "__main__":
     assert db_name.endswith(".db")
     db = sqlite_utils.Database(db_name)
     if not db.tables:
-        print("Creating tables")
         create_tables(db)
     last_commit_hash = None
     try:
@@ -189,16 +181,15 @@ if __name__ == "__main__":
             print(count, sep=" ", end=" ")
         
         obj = json.loads(data)
-        from pprint import pprint
-        pprint(obj)
+        
         field_lookup = create_field_lookup(obj.get('fields'))
-        print(f"when={type(when)}")
+        #print(f"when={type(when)}")
         # testing
         
         when = when.replace(hour=2)
         for snapshot in obj.get('features'):
             # these should use named parameters
             save_hospital_snapshot(db, snapshot, when, hash, field_lookup)
-            break
+
 
    
