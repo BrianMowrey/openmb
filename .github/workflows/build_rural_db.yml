@@ -2,7 +2,12 @@ on:
   push:
     paths:
     - 'rural_health_care_facilities/rural.json'
-  workflow_dispatch: ''
+  workflow_dispatch: 
+     inputs:
+       name:
+         description: hi
+         required: false
+         default: 'oh hai'
 jobs: 
   build_database:
     runs-on: ubuntu-latest
