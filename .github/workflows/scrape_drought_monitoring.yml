@@ -1,0 +1,23 @@
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '3 3 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        curl 'https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Drought_Monitor_update/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=102100&resultOffset=0&resultRecordCount=8000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042337%2C%22extent%22%3A%7B%22xmin%22%3A-11305607.484965865%2C%22ymin%22%3A6273164.773539064%2C%22xmax%22%3A-10331561.94052272%2C%22ymax%22%3A8156649.55294495%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D%7D' -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0' -H 'Accept: */*' -H 'Accept-Language: en-CA,en-US;q=0.7,en;q=0.3' --compressed -H 'Referer: https://manitoba.maps.arcgis.com/apps/webappviewer/index.html?id=6e385ffdabc345dab8f0b885bcfb4a0d' -H 'Origin: https://manitoba.maps.arcgis.com' -H 'Connection: keep-alive' | jq . > drought_monitoring/drought_monitoring.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
