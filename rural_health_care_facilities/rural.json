@@ -1,7 +1,2785 @@
 {
-  "error": {
-    "code": 504,
-    "message": "Your request has timed out.",
-    "details": []
-  }
+  "objectIdFieldName": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "transform": {
+    "originPosition": "upperLeft",
+    "scale": [
+      1.058335450004233,
+      1.058335450004233
+    ],
+    "translate": [
+      -11340982.370110163,
+      7731051.972231458
+    ]
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Community_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Community Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Facility_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Facility Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Lat",
+      "type": "esriFieldTypeDouble",
+      "alias": "Lat",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Long",
+      "type": "esriFieldTypeDouble",
+      "alias": "Long",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Emergency_Department_Availabili",
+      "type": "esriFieldTypeString",
+      "alias": "Emergency Department Availability",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Percentage_of_Time_Open__2015_",
+      "type": "esriFieldTypeString",
+      "alias": "Percentage of Time Open (2015)",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Nearest_Alternate_Emergency_Dep",
+      "type": "esriFieldTypeString",
+      "alias": "Nearest Alternate Emergency Department",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Acute_Care_Availability",
+      "type": "esriFieldTypeString",
+      "alias": "Acute Care Availability",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Acute_Care_Number_of_Beds",
+      "type": "esriFieldTypeInteger",
+      "alias": "Acute Care Number of Beds",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Acute_Care_Occupancy_Rate__2015",
+      "type": "esriFieldTypeString",
+      "alias": "Acute Care Occupancy Rate (2015-16)",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Transitional_Care_Availability",
+      "type": "esriFieldTypeString",
+      "alias": "Transitional Care Availability",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Transitional_Care_Number_of_Bed",
+      "type": "esriFieldTypeInteger",
+      "alias": "Transitional Care Number of Beds",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Transitional_Care_Occupancy_Rat",
+      "type": "esriFieldTypeString",
+      "alias": "Transitional Care Occupancy Rate (2015-16)",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Diagnostic_Care_Services_Availa",
+      "type": "esriFieldTypeString",
+      "alias": "Diagnostic Care Services Available",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Emergency_Medical_Services_Stat",
+      "type": "esriFieldTypeString",
+      "alias": "Emergency Medical Services Station",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Nearest_Alternate_Emergency_Med",
+      "type": "esriFieldTypeString",
+      "alias": "Nearest Alternate Emergency Medical Services Station",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Personal_Care_Home",
+      "type": "esriFieldTypeString",
+      "alias": "Personal Care Home",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Personal_Care_Home_Number_of_Be",
+      "type": "esriFieldTypeInteger",
+      "alias": "Personal Care Home Number of Beds",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 1,
+        "Community_Name": "Flin Flon",
+        "Facility_Name": "Flin Flon General Hospital",
+        "Lat": 54.765086,
+        "Long": -101.877778,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 42,
+        "Acute_Care_Occupancy_Rate__2015": "37.4",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 66
+      },
+      "geometry": {
+        "x": 0,
+        "y": 391790
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 2,
+        "Community_Name": "The Pas",
+        "Facility_Name": "St. Anthony’s General Hospital",
+        "Lat": 53.827585,
+        "Long": -101.250896,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 40,
+        "Acute_Care_Occupancy_Rate__2015": "66",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 60
+      },
+      "geometry": {
+        "x": 65938,
+        "y": 560769
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 3,
+        "Community_Name": "Cranberry Portage",
+        "Facility_Name": "Cranberry Portage Wellness Centre",
+        "Lat": 54.585535,
+        "Long": -101.375943,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Flin Flon General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 52785,
+        "y": 424452
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 4,
+        "Community_Name": "Snow Lake",
+        "Facility_Name": "Snow Lake Health Centre",
+        "Lat": 54.874894,
+        "Long": -100.016504,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 2,
+        "Acute_Care_Occupancy_Rate__2015": "56.3",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 4,
+        "Transitional_Care_Occupancy_Rat": "83.8",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 195775,
+        "y": 371743
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 5,
+        "Community_Name": "Thompson",
+        "Facility_Name": "Thompson General Hospital",
+        "Lat": 55.73532,
+        "Long": -97.856221,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 79,
+        "Acute_Care_Occupancy_Rate__2015": "69.2",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 35
+      },
+      "geometry": {
+        "x": 423002,
+        "y": 212737
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6,
+        "Community_Name": "Leaf Rapids",
+        "Facility_Name": "Leaf Rapids Health Centre",
+        "Lat": 56.463351,
+        "Long": -100.0107,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 196386,
+        "y": 75437
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7,
+        "Community_Name": "Lynn Lake",
+        "Facility_Name": "Lynn Lake Hospital",
+        "Lat": 56.857517,
+        "Long": -101.04317,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 11,
+        "Acute_Care_Occupancy_Rate__2015": "7.3",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 8,
+        "Transitional_Care_Occupancy_Rat": "117.2",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 87787,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8,
+        "Community_Name": "Gillam",
+        "Facility_Name": "Gillam Hospital",
+        "Lat": 56.346617,
+        "Long": -94.708344,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 7,
+        "Acute_Care_Occupancy_Rate__2015": "41.3",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 3,
+        "Transitional_Care_Occupancy_Rat": "98.51",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 754107,
+        "y": 97628
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9,
+        "Community_Name": "Pikwitonei ",
+        "Facility_Name": "Pikwitonei Health Centre",
+        "Lat": 55.595632,
+        "Long": -97.087572,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Medivac",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 503851,
+        "y": 238787
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10,
+        "Community_Name": "Thicket Portage",
+        "Facility_Name": "Thicket Portage Nursing Station",
+        "Lat": 55.318447,
+        "Long": -97.686998,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Medivac",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 440801,
+        "y": 290206
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11,
+        "Community_Name": "Cormorant",
+        "Facility_Name": "Cormorant Health Care Centre",
+        "Lat": 54.224805,
+        "Long": -100.601709,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "St. Anthony’sGeneral Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "The Pas",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 134221,
+        "y": 489641
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12,
+        "Community_Name": "Ilford",
+        "Facility_Name": "Ilford Community Health Centre",
+        "Lat": 56.067745,
+        "Long": -95.600435,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Medivac",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 660273,
+        "y": 150367
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 13,
+        "Community_Name": "Sherridon",
+        "Facility_Name": "Sherridon Health Centre",
+        "Lat": 55.124244,
+        "Long": -101.085324,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Flin Flon General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Cranberry Portage",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 83353,
+        "y": 326017
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 14,
+        "Community_Name": "Wabowden",
+        "Facility_Name": "Wabowden Community Health Centre",
+        "Lat": 54.90946,
+        "Long": -98.629192,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Thompson General Hospital",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 341698,
+        "y": 365421
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 15,
+        "Community_Name": "Arborg",
+        "Facility_Name": "Arborg and District Health Centre",
+        "Lat": 50.906184,
+        "Long": -97.226247,
+        "Emergency_Department_Availabili": "Partial Services ",
+        "Percentage_of_Time_Open__2015_": "41",
+        "Nearest_Alternate_Emergency_Dep": "Gimli",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 14,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "94",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 489265,
+        "y": 1064253
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 16,
+        "Community_Name": "Ashern",
+        "Facility_Name": "Ashern Lakeshore General Hospital",
+        "Lat": 51.180439,
+        "Long": -98.352628,
+        "Emergency_Department_Availabili": "Partial Services ",
+        "Percentage_of_Time_Open__2015_": "65",
+        "Nearest_Alternate_Emergency_Dep": "Eriksdale",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 14,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "105",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 370788,
+        "y": 1018371
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 17,
+        "Community_Name": "Beausejour",
+        "Facility_Name": "Beausejour Health Centre",
+        "Lat": 50.06166,
+        "Long": -96.515192,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "45",
+        "Nearest_Alternate_Emergency_Dep": "Selkirk",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 30,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "99",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 80
+      },
+      "geometry": {
+        "x": 564056,
+        "y": 1203863
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 18,
+        "Community_Name": "Bissett",
+        "Facility_Name": "N/A",
+        "Lat": 51.026,
+        "Long": -95.684068,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 651476,
+        "y": 1044242
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19,
+        "Community_Name": "Eriksdale",
+        "Facility_Name": "Eriksdale E.M. Crowe Memorial Hospital",
+        "Lat": 50.866247,
+        "Long": -98.10668,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "45",
+        "Nearest_Alternate_Emergency_Dep": "Ashern",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 13,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "98",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 396658,
+        "y": 1070911
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20,
+        "Community_Name": "Fisher Branch",
+        "Facility_Name": "N/A",
+        "Lat": 51.084482,
+        "Long": -97.616029,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 448266,
+        "y": 1034455
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21,
+        "Community_Name": "Gimli",
+        "Facility_Name": "Gimli Johnson Memorial Hospital",
+        "Lat": 50.627187,
+        "Long": -96.994988,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "74",
+        "Nearest_Alternate_Emergency_Dep": "Arborg",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 26,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "100",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 80
+      },
+      "geometry": {
+        "x": 513589,
+        "y": 1110651
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22,
+        "Community_Name": "Gypsumville",
+        "Facility_Name": "N/A",
+        "Lat": 51.770011,
+        "Long": -98.639502,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 340613,
+        "y": 918806
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23,
+        "Community_Name": "Lac du Bonnet",
+        "Facility_Name": "Lac du Bonnet Health Centre",
+        "Lat": 50.253,
+        "Long": -96.060223,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 30
+      },
+      "geometry": {
+        "x": 611911,
+        "y": 1172450
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24,
+        "Community_Name": "Lundar",
+        "Facility_Name": "N/A",
+        "Lat": 50.699409,
+        "Long": -98.041379,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 403526,
+        "y": 1098667
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25,
+        "Community_Name": "Oakbank",
+        "Facility_Name": "N/A",
+        "Lat": 49.940436,
+        "Long": -96.842629,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 529615,
+        "y": 1223700
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 26,
+        "Community_Name": "Pinawa",
+        "Facility_Name": "Pinawa Hospital",
+        "Lat": 50.151431,
+        "Long": -95.883508,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "62",
+        "Nearest_Alternate_Emergency_Dep": "Beausejour",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 17,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "92",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 630499,
+        "y": 1189140
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 27,
+        "Community_Name": "Pine Falls",
+        "Facility_Name": "Pine Falls Health Complex",
+        "Lat": 50.5634,
+        "Long": -96.21455,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "88",
+        "Nearest_Alternate_Emergency_Dep": "Pinawa",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 23,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "95",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 595678,
+        "y": 1121220
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 28,
+        "Community_Name": "Riverton",
+        "Facility_Name": "N/A",
+        "Lat": 50.996076,
+        "Long": -96.999322,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 513133,
+        "y": 1049244
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 29,
+        "Community_Name": "Selkirk",
+        "Facility_Name": "Selkirk Regional Health Centre",
+        "Lat": 50.159704,
+        "Long": -96.886359,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "Stonewall",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 65,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "94",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, Ultrasound, CT, MRI",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 271
+      },
+      "geometry": {
+        "x": 525015,
+        "y": 1187782
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 30,
+        "Community_Name": "St. Laurent",
+        "Facility_Name": "N/A",
+        "Lat": 50.413737,
+        "Long": -97.940907,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 414094,
+        "y": 1145963
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 31,
+        "Community_Name": "Stonewall",
+        "Facility_Name": "Stonewall and District Health Centre",
+        "Lat": 50.130958,
+        "Long": -97.335112,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "Selkirk",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 15,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "95",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 50
+      },
+      "geometry": {
+        "x": 477814,
+        "y": 1192500
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 32,
+        "Community_Name": "Teulon",
+        "Facility_Name": "Teulon Hunter Memorial Hospital",
+        "Lat": 50.387518,
+        "Long": -97.25487,
+        "Emergency_Department_Availabili": "Closed",
+        "Percentage_of_Time_Open__2015_": "0",
+        "Nearest_Alternate_Emergency_Dep": "Stonewall",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 18,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "117",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 486254,
+        "y": 1150290
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 33,
+        "Community_Name": "West St. Paul",
+        "Facility_Name": "N/A",
+        "Lat": 50.011344,
+        "Long": -97.140007,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 498336,
+        "y": 1212103
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 34,
+        "Community_Name": "Whitemouth",
+        "Facility_Name": "Whitemouth District Health Centre",
+        "Lat": 49.955996,
+        "Long": -95.973021,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 26
+      },
+      "geometry": {
+        "x": 621083,
+        "y": 1221157
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 35,
+        "Community_Name": "Altona",
+        "Facility_Name": "Altona Community Memorial Health Centre ",
+        "Lat": 49.107597,
+        "Long": -97.550719,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "86",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 22,
+        "Acute_Care_Occupancy_Rate__2015": "91.6",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 65
+      },
+      "geometry": {
+        "x": 455135,
+        "y": 1358656
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 36,
+        "Community_Name": "Amaranth / Sandy Bay",
+        "Facility_Name": "N/A",
+        "Lat": 50.550665,
+        "Long": -98.713858,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 332792,
+        "y": 1123329
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 37,
+        "Community_Name": "Carman",
+        "Facility_Name": "Carman Memorial Hospital",
+        "Lat": 49.497278,
+        "Long": -98.008267,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "92",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 25,
+        "Acute_Care_Occupancy_Rate__2015": "87.6",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 70
+      },
+      "geometry": {
+        "x": 407009,
+        "y": 1295797
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 38,
+        "Community_Name": "Crystal City",
+        "Facility_Name": "N/A",
+        "Lat": 49.148289,
+        "Long": -98.949607,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Shared with Swan Lake",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 16,
+        "Acute_Care_Occupancy_Rate__2015": "42.6",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 307995,
+        "y": 1352115
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 39,
+        "Community_Name": "Elie",
+        "Facility_Name": "N/A",
+        "Lat": 49.904375,
+        "Long": -97.759126,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Portage la Prairie",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 433214,
+        "y": 1229591
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 40,
+        "Community_Name": "Emerson",
+        "Facility_Name": "Emerson Health Centre",
+        "Lat": 49.005128,
+        "Long": -97.216015,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Morris",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 4,
+        "Transitional_Care_Occupancy_Rat": "86.4",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Morris",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 490341,
+        "y": 1375103
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 41,
+        "Community_Name": "Falcon Lake",
+        "Facility_Name": "N/A",
+        "Lat": 49.685104,
+        "Long": -95.328714,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Steinbach/Kenora",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 688854,
+        "y": 1265320
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 42,
+        "Community_Name": "Gladstone",
+        "Facility_Name": "Gladstone Health Centre",
+        "Lat": 50.225025,
+        "Long": -98.943426,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Portage la Prairie",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 14,
+        "Transitional_Care_Occupancy_Rat": "84",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 50
+      },
+      "geometry": {
+        "x": 308646,
+        "y": 1177050
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 43,
+        "Community_Name": "Grunthal",
+        "Facility_Name": "N/A",
+        "Lat": 49.408772,
+        "Long": -96.859668,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Steinbach",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 527823,
+        "y": 1310117
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 44,
+        "Community_Name": "Ile des Chenes",
+        "Facility_Name": "N/A",
+        "Lat": 49.709111,
+        "Long": -96.992764,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Ste. Anne/Winnipeg",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 513823,
+        "y": 1261416
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 45,
+        "Community_Name": "MacGregor",
+        "Facility_Name": "MacGregor Health Centre",
+        "Lat": 49.962621,
+        "Long": -98.776005,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Portage la Prairie",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 6,
+        "Transitional_Care_Occupancy_Rat": "76.5",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 326256,
+        "y": 1220073
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 46,
+        "Community_Name": "Manitou",
+        "Facility_Name": "Pembina Manitou Health Centre",
+        "Lat": 49.241739,
+        "Long": -98.543723,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 8,
+        "Transitional_Care_Occupancy_Rat": "70.8",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 18
+      },
+      "geometry": {
+        "x": 350688,
+        "y": 1337074
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 48,
+        "Community_Name": "Morris",
+        "Facility_Name": "Morris General Hospital",
+        "Lat": 49.353472,
+        "Long": -97.360693,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "89",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 23,
+        "Acute_Care_Occupancy_Rate__2015": "77.6",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 475123,
+        "y": 1319052
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 49,
+        "Community_Name": "Niverville",
+        "Facility_Name": "N/A",
+        "Lat": 49.607643,
+        "Long": -97.040329,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "St. Pierre Jolys/Steinbach",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "St. Pierre-Jolys",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 80
+      },
+      "geometry": {
+        "x": 508820,
+        "y": 1277903
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 50,
+        "Community_Name": "Notre Dame",
+        "Facility_Name": "Centre de santé Notre-Dame Health Centre",
+        "Lat": 49.532008,
+        "Long": -98.564292,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Shared with Treherne",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 10,
+        "Acute_Care_Occupancy_Rate__2015": "53.5",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 60
+      },
+      "geometry": {
+        "x": 348524,
+        "y": 1290170
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 51,
+        "Community_Name": "Oak Bluff",
+        "Facility_Name": "N/A",
+        "Lat": 49.774879,
+        "Long": -97.323351,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Winnipeg",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 479051,
+        "y": 1250711
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 52,
+        "Community_Name": "Pilot Mound",
+        "Facility_Name": "N/A",
+        "Lat": 49.202998,
+        "Long": -98.893215,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Crystal City",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Crystal City ",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 54
+      },
+      "geometry": {
+        "x": 313927,
+        "y": 1343313
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 53,
+        "Community_Name": "Portage",
+        "Facility_Name": "Portage District General Hospital",
+        "Lat": 49.967254,
+        "Long": -98.280998,
+        "Emergency_Department_Availabili": "24/7 services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 88,
+        "Acute_Care_Occupancy_Rate__2015": "76.4",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 196
+      },
+      "geometry": {
+        "x": 378322,
+        "y": 1219316
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 54,
+        "Community_Name": "Ste. Anne",
+        "Facility_Name": "Hôpital Ste-Anne Hospital",
+        "Lat": 49.6679,
+        "Long": -96.64767,
+        "Emergency_Department_Availabili": "24/7 services",
+        "Percentage_of_Time_Open__2015_": "99",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 21,
+        "Acute_Care_Occupancy_Rate__2015": "74.9",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 66
+      },
+      "geometry": {
+        "x": 550121,
+        "y": 1268116
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 55,
+        "Community_Name": "St. Claude",
+        "Facility_Name": "Centre de Sante St. Claude Health Centre",
+        "Lat": 49.653788,
+        "Long": -98.344588,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Notre Dame de Lourdes",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 10,
+        "Transitional_Care_Occupancy_Rat": "95.5",
+        "Diagnostic_Care_Services_Availa": "",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Treherne",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 18
+      },
+      "geometry": {
+        "x": 371634,
+        "y": 1270410
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 56,
+        "Community_Name": "St. Pierre-Jolys",
+        "Facility_Name": "Centre médico-social De Salaberry District Health Centre",
+        "Lat": 49.444858,
+        "Long": -96.98931,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "78",
+        "Nearest_Alternate_Emergency_Dep": "Steinbach/Winnipeg",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 14,
+        "Acute_Care_Occupancy_Rate__2015": "89.4",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 22
+      },
+      "geometry": {
+        "x": 514186,
+        "y": 1304282
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 57,
+        "Community_Name": "Steinbach",
+        "Facility_Name": "Bethesda Regional Health Centre",
+        "Lat": 49.529605,
+        "Long": -96.679409,
+        "Emergency_Department_Availabili": "24/7 services",
+        "Percentage_of_Time_Open__2015_": "99",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 78,
+        "Acute_Care_Occupancy_Rate__2015": "80.8",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 120
+      },
+      "geometry": {
+        "x": 546604,
+        "y": 1290499
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 58,
+        "Community_Name": "Swan Lake",
+        "Facility_Name": "Lorne Memorial Hospital",
+        "Lat": 49.4124,
+        "Long": -98.787142,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Shared with Crystal City",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 18,
+        "Acute_Care_Occupancy_Rate__2015": "39.6",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "Notre Dame de Lourdes",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 325084,
+        "y": 1309531
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 59,
+        "Community_Name": "Vita",
+        "Facility_Name": "Vita & District Health Centre",
+        "Lat": 49.136274,
+        "Long": -96.564723,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Steinbach",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 10,
+        "Acute_Care_Occupancy_Rate__2015": "98",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 44
+      },
+      "geometry": {
+        "x": 558846,
+        "y": 1354047
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 60,
+        "Community_Name": "Morden and Winkler",
+        "Facility_Name": "Boundary Trails Health Centre",
+        "Lat": 49.189532,
+        "Long": -98.002462,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 94,
+        "Acute_Care_Occupancy_Rate__2015": "81.5",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT, MRI",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": null
+      },
+      "geometry": {
+        "x": 407620,
+        "y": 1345480
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 61,
+        "Community_Name": "Baldur",
+        "Facility_Name": "Baldur Health Centre",
+        "Lat": 49.385622,
+        "Long": -99.239698,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Glenboro",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 13,
+        "Transitional_Care_Occupancy_Rat": "44",
+        "Diagnostic_Care_Services_Availa": "Lab",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Glenboro",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 277483,
+        "y": 1313859
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 62,
+        "Community_Name": "Benito",
+        "Facility_Name": "N/A",
+        "Lat": 51.915471,
+        "Long": -101.548216,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Swan River",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Swan River",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 34665,
+        "y": 894042
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 63,
+        "Community_Name": "Birtle",
+        "Facility_Name": "Birtle Health Centre",
+        "Lat": 50.425738,
+        "Long": -101.046618,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Hamiota / Russell",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 14,
+        "Transitional_Care_Occupancy_Rat": "85",
+        "Diagnostic_Care_Services_Availa": "Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 87424,
+        "y": 1143982
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 64,
+        "Community_Name": "Boissevain",
+        "Facility_Name": "Boissevain Health Centre",
+        "Lat": 49.225488,
+        "Long": -100.060105,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Killarney / Deloraine",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 11,
+        "Acute_Care_Occupancy_Rate__2015": "57",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 59
+      },
+      "geometry": {
+        "x": 191189,
+        "y": 1339692
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 65,
+        "Community_Name": "Brandon",
+        "Facility_Name": "Brandon Regional Health Centre",
+        "Lat": 49.840224,
+        "Long": -99.936532,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 305,
+        "Acute_Care_Occupancy_Rate__2015": "96",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT, MRI",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 597
+      },
+      "geometry": {
+        "x": 204187,
+        "y": 1240061
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 66,
+        "Community_Name": "Carberry",
+        "Facility_Name": "Carberry Plains Health Centre",
+        "Lat": 49.87201,
+        "Long": -99.355683,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "70",
+        "Nearest_Alternate_Emergency_Dep": "Glenboro / Brandon",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 10,
+        "Acute_Care_Occupancy_Rate__2015": "64",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 36
+      },
+      "geometry": {
+        "x": 265283,
+        "y": 1234875
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 67,
+        "Community_Name": "Cartwright",
+        "Facility_Name": "Davidson Memorial Health Centre ",
+        "Lat": 49.091939,
+        "Long": -99.334541,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Killarney",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 10
+      },
+      "geometry": {
+        "x": 267507,
+        "y": 1361171
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 68,
+        "Community_Name": "Dauphin",
+        "Facility_Name": "Dauphin Regional Health Centre",
+        "Lat": 51.147408,
+        "Long": -100.061443,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 82,
+        "Acute_Care_Occupancy_Rate__2015": "60",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab, CT",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 160
+      },
+      "geometry": {
+        "x": 191049,
+        "y": 1023912
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 69,
+        "Community_Name": "Deloraine",
+        "Facility_Name": "Deloraine Health Centre",
+        "Lat": 49.19402,
+        "Long": -100.497962,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Boissevain",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 14,
+        "Acute_Care_Occupancy_Rate__2015": "41",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 46
+      },
+      "geometry": {
+        "x": 145134,
+        "y": 1344758
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 70,
+        "Community_Name": "Elkhorn",
+        "Facility_Name": "Elkwood Manor",
+        "Lat": 49.976117,
+        "Long": -101.240845,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Virden",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Virden",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 24
+      },
+      "geometry": {
+        "x": 66995,
+        "y": 1217866
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 71,
+        "Community_Name": "Erickson",
+        "Facility_Name": "N/A",
+        "Lat": 50.498459,
+        "Long": -99.91496,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Minnedosa",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 9,
+        "Transitional_Care_Occupancy_Rat": "87",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 16
+      },
+      "geometry": {
+        "x": 206456,
+        "y": 1131966
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 72,
+        "Community_Name": "Gilbert Plains",
+        "Facility_Name": "N/A",
+        "Lat": 51.148167,
+        "Long": -100.484772,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Dauphin",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 30
+      },
+      "geometry": {
+        "x": 146521,
+        "y": 1023784
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 73,
+        "Community_Name": "Glenboro",
+        "Facility_Name": "Glenboro Health Centre",
+        "Lat": 49.559516,
+        "Long": -99.285749,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "70",
+        "Nearest_Alternate_Emergency_Dep": "Carberry",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 11,
+        "Acute_Care_Occupancy_Rate__2015": "34",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 272639,
+        "y": 1285711
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 74,
+        "Community_Name": "Grandview",
+        "Facility_Name": "Grandview Health Centre",
+        "Lat": 51.179309,
+        "Long": -100.699876,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "Dauphin",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 18,
+        "Acute_Care_Occupancy_Rate__2015": "42",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "No",
+        "Personal_Care_Home_Number_of_Be": 39
+      },
+      "geometry": {
+        "x": 123896,
+        "y": 1018561
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 75,
+        "Community_Name": "Hamiota",
+        "Facility_Name": "Hamitoa Health Centre",
+        "Lat": 50.182126,
+        "Long": -100.589744,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "76",
+        "Nearest_Alternate_Emergency_Dep": "Virden / Russell",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 20,
+        "Acute_Care_Occupancy_Rate__2015": "48",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 30
+      },
+      "geometry": {
+        "x": 135480,
+        "y": 1184100
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 76,
+        "Community_Name": "Hartney",
+        "Facility_Name": "N/A",
+        "Lat": 49.480917,
+        "Long": -100.522381,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Souris",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 142565,
+        "y": 1298446
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 77,
+        "Community_Name": "Killarney",
+        "Facility_Name": "Tri-Lake Health Centre",
+        "Lat": 49.175744,
+        "Long": -99.662323,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "73",
+        "Nearest_Alternate_Emergency_Dep": "Boissevain",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 22,
+        "Acute_Care_Occupancy_Rate__2015": "41",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 60
+      },
+      "geometry": {
+        "x": 233029,
+        "y": 1347699
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 78,
+        "Community_Name": "McCreary",
+        "Facility_Name": "McCreary/Alonsa Health Centre",
+        "Lat": 50.772285,
+        "Long": -99.486386,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Ste. Rose du Lac / Neepawa",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 13,
+        "Transitional_Care_Occupancy_Rat": "85",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 251535,
+        "y": 1086555
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 79,
+        "Community_Name": "Melita",
+        "Facility_Name": "Melita Health Centre",
+        "Lat": 49.271081,
+        "Long": -100.99587,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "49",
+        "Nearest_Alternate_Emergency_Dep": "Deloraine / Virden",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 11,
+        "Acute_Care_Occupancy_Rate__2015": "43",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 92762,
+        "y": 1332345
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 80,
+        "Community_Name": "Minnedosa",
+        "Facility_Name": "Minnedosa Health Centre",
+        "Lat": 50.241404,
+        "Long": -99.840005,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "99",
+        "Nearest_Alternate_Emergency_Dep": "Neepawa",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 27,
+        "Acute_Care_Occupancy_Rate__2015": "59",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 50
+      },
+      "geometry": {
+        "x": 214340,
+        "y": 1174357
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 81,
+        "Community_Name": "Neepawa",
+        "Facility_Name": "Neepawa Health Centre (Memorial Hospital)",
+        "Lat": 50.23436,
+        "Long": -99.461385,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 35,
+        "Acute_Care_Occupancy_Rate__2015": "60",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 100
+      },
+      "geometry": {
+        "x": 254165,
+        "y": 1175516
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 82,
+        "Community_Name": "Reston",
+        "Facility_Name": "Reston Health Centre",
+        "Lat": 49.561372,
+        "Long": -101.099816,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Virden",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 13,
+        "Transitional_Care_Occupancy_Rat": "55",
+        "Diagnostic_Care_Services_Availa": "Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 81829,
+        "y": 1285410
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 83,
+        "Community_Name": "Rivers",
+        "Facility_Name": "Riverdale Health Centre",
+        "Lat": 50.035198,
+        "Long": -100.242171,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Brandon",
+        "Acute_Care_Availability": "Rehabilitation Beds",
+        "Acute_Care_Number_of_Beds": 14,
+        "Acute_Care_Occupancy_Rate__2015": "63",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 172039,
+        "y": 1208197
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 84,
+        "Community_Name": "Roblin",
+        "Facility_Name": "Roblin Health Centre",
+        "Lat": 51.227136,
+        "Long": -101.362792,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "69",
+        "Nearest_Alternate_Emergency_Dep": "Russell / Grandview",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 25,
+        "Acute_Care_Occupancy_Rate__2015": "37",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 60
+      },
+      "geometry": {
+        "x": 54168,
+        "y": 1010532
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 85,
+        "Community_Name": "Rossburn",
+        "Facility_Name": "Rossburn Health Centre",
+        "Lat": 50.66707,
+        "Long": -100.804574,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Russell",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 9,
+        "Transitional_Care_Occupancy_Rat": "91",
+        "Diagnostic_Care_Services_Availa": "Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 112883,
+        "y": 1104035
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 86,
+        "Community_Name": "Russell",
+        "Facility_Name": "Russell Health Centre",
+        "Lat": 50.773121,
+        "Long": -101.277338,
+        "Emergency_Department_Availabili": "Available",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 30,
+        "Acute_Care_Occupancy_Rate__2015": "50",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 63156,
+        "y": 1086416
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 87,
+        "Community_Name": "Sandy Lake",
+        "Facility_Name": "N/A",
+        "Lat": 50.528136,
+        "Long": -100.177425,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Minnedosa",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "Not Available",
+        "Emergency_Medical_Services_Stat": "No",
+        "Nearest_Alternate_Emergency_Med": "Erickson",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 35
+      },
+      "geometry": {
+        "x": 178849,
+        "y": 1127057
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 88,
+        "Community_Name": "Shoal Lake",
+        "Facility_Name": "Shoal Lake/Strathclair Health Centre",
+        "Lat": 50.438298,
+        "Long": -100.594817,
+        "Emergency_Department_Availabili": "Suspended",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Hamiota",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 12,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 40
+      },
+      "geometry": {
+        "x": 134946,
+        "y": 1141908
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 89,
+        "Community_Name": "Souris",
+        "Facility_Name": "Souris Health Centre",
+        "Lat": 49.614713,
+        "Long": -100.249423,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "87",
+        "Nearest_Alternate_Emergency_Dep": "Brandon",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 25,
+        "Acute_Care_Occupancy_Rate__2015": "45",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 43
+      },
+      "geometry": {
+        "x": 171276,
+        "y": 1276755
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 90,
+        "Community_Name": "Ste. Rose du Lac",
+        "Facility_Name": "Ste. Rose General Hospital",
+        "Lat": 51.057919,
+        "Long": -99.518624,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Dauphin",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 25,
+        "Acute_Care_Occupancy_Rate__2015": "53",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 65
+      },
+      "geometry": {
+        "x": 248144,
+        "y": 1038902
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 91,
+        "Community_Name": "Swan River",
+        "Facility_Name": "Swan Valley Health Centre",
+        "Lat": 52.106416,
+        "Long": -101.262306,
+        "Emergency_Department_Availabili": "24/7 Services",
+        "Percentage_of_Time_Open__2015_": "100",
+        "Nearest_Alternate_Emergency_Dep": "",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 52,
+        "Acute_Care_Occupancy_Rate__2015": "64",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 115
+      },
+      "geometry": {
+        "x": 64738,
+        "y": 861411
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 92,
+        "Community_Name": "Treherne",
+        "Facility_Name": "Tiger Hills Health Centre",
+        "Lat": 49.633591,
+        "Long": -98.697886,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "50",
+        "Nearest_Alternate_Emergency_Dep": "Notre Dame de Lourdes",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 13,
+        "Acute_Care_Occupancy_Rate__2015": "66",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 22
+      },
+      "geometry": {
+        "x": 334472,
+        "y": 1273690
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 93,
+        "Community_Name": "Virden",
+        "Facility_Name": "Virden Health Centre",
+        "Lat": 49.855896,
+        "Long": -100.924067,
+        "Emergency_Department_Availabili": "Partial Services",
+        "Percentage_of_Time_Open__2015_": "98",
+        "Nearest_Alternate_Emergency_Dep": "Brandon / Hamiota",
+        "Acute_Care_Availability": "Available",
+        "Acute_Care_Number_of_Beds": 25,
+        "Acute_Care_Occupancy_Rate__2015": "53",
+        "Transitional_Care_Availability": "Not Available",
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": "",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 96
+      },
+      "geometry": {
+        "x": 100315,
+        "y": 1237505
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 94,
+        "Community_Name": "Wawanesa",
+        "Facility_Name": "Wawanesa Health Centre",
+        "Lat": 49.595754,
+        "Long": -99.693114,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Glenboro",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 6,
+        "Transitional_Care_Occupancy_Rat": "78",
+        "Diagnostic_Care_Services_Availa": "X-Ray, Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 229791,
+        "y": 1279833
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 95,
+        "Community_Name": "Winnipegosis",
+        "Facility_Name": "Winnipegosis and District Health Centre",
+        "Lat": 51.640305,
+        "Long": -99.932282,
+        "Emergency_Department_Availabili": "Not Available",
+        "Percentage_of_Time_Open__2015_": "",
+        "Nearest_Alternate_Emergency_Dep": "Dauphin",
+        "Acute_Care_Availability": "Not Available",
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": "",
+        "Transitional_Care_Availability": "Available",
+        "Transitional_Care_Number_of_Bed": 15,
+        "Transitional_Care_Occupancy_Rat": "54",
+        "Diagnostic_Care_Services_Availa": "Lab",
+        "Emergency_Medical_Services_Stat": "Yes",
+        "Nearest_Alternate_Emergency_Med": "",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 20
+      },
+      "geometry": {
+        "x": 204634,
+        "y": 940821
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 96,
+        "Community_Name": "Winkler",
+        "Facility_Name": "Boundary Trails Health Centre",
+        "Lat": 49.178795,
+        "Long": -97.955459,
+        "Emergency_Department_Availabili": null,
+        "Percentage_of_Time_Open__2015_": null,
+        "Nearest_Alternate_Emergency_Dep": null,
+        "Acute_Care_Availability": null,
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": null,
+        "Transitional_Care_Availability": null,
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": null,
+        "Diagnostic_Care_Services_Availa": null,
+        "Emergency_Medical_Services_Stat": null,
+        "Nearest_Alternate_Emergency_Med": null,
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 145
+      },
+      "geometry": {
+        "x": 412563,
+        "y": 1347208
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 97,
+        "Community_Name": "Morden",
+        "Facility_Name": "Boundary Trails Health Centre",
+        "Lat": 49.185485,
+        "Long": -98.104852,
+        "Emergency_Department_Availabili": null,
+        "Percentage_of_Time_Open__2015_": null,
+        "Nearest_Alternate_Emergency_Dep": null,
+        "Acute_Care_Availability": null,
+        "Acute_Care_Number_of_Beds": null,
+        "Acute_Care_Occupancy_Rate__2015": null,
+        "Transitional_Care_Availability": null,
+        "Transitional_Care_Number_of_Bed": null,
+        "Transitional_Care_Occupancy_Rat": null,
+        "Diagnostic_Care_Services_Availa": null,
+        "Emergency_Medical_Services_Stat": null,
+        "Nearest_Alternate_Emergency_Med": "Winkler",
+        "Personal_Care_Home": "Yes",
+        "Personal_Care_Home_Number_of_Be": 60
+      },
+      "geometry": {
+        "x": 396850,
+        "y": 1346132
+      }
+    }
+  ]
 }
