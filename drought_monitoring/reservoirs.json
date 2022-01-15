@@ -100,9 +100,10 @@
     },
     {
       "name": "Supply_Status_Percent",
-      "type": "esriFieldTypeInteger",
+      "type": "esriFieldTypeString",
       "alias": "Supply_Status_Percent",
-      "sqlType": "sqlTypeInteger",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
       "domain": null,
       "defaultValue": null
     },
@@ -123,11 +124,11 @@
         "LONG": -101.4255737,
         "Community": "Brandon, Portage and Cartier Regional Water Co-op",
         "Target_Level": 1402.5,
-        "Observed_Level": 1399.055333,
-        "Date": 1635742800000,
+        "Observed_Level": 1398.9291,
+        "Date": 1641535200000,
         "Target_Storage": 300000,
-        "Observed_Storage": "257,604",
-        "Supply_Status_Percent": 86,
+        "Observed_Storage": "256,544",
+        "Supply_Status_Percent": "85.5",
         "ObjectId": 1
       },
       "geometry": {
@@ -142,11 +143,11 @@
         "LONG": -100.2006487,
         "Community": "Rivers",
         "Target_Level": 1536,
-        "Observed_Level": 1535.130198,
-        "Date": 1635742800000,
+        "Observed_Level": 1535.901085,
+        "Date": 1641535200000,
         "Target_Storage": 24500,
-        "Observed_Storage": "23,543",
-        "Supply_Status_Percent": 96,
+        "Observed_Storage": "23,376",
+        "Supply_Status_Percent": "95.4",
         "ObjectId": 2
       },
       "geometry": {
@@ -161,11 +162,11 @@
         "LONG": -98.13216337,
         "Community": "Morden",
         "Target_Level": 1082,
-        "Observed_Level": 1071.161376,
-        "Date": 1635742800000,
+        "Observed_Level": 1070.814041,
+        "Date": 1641535200000,
         "Target_Storage": 3150,
-        "Observed_Storage": "1,601",
-        "Supply_Status_Percent": 51,
+        "Observed_Storage": "1,509",
+        "Supply_Status_Percent": "47.9",
         "ObjectId": 3
       },
       "geometry": {
@@ -180,11 +181,11 @@
         "LONG": -98.28131274,
         "Community": "Carman and Pembina Valley Water Co-op",
         "Target_Level": 972,
-        "Observed_Level": 969.2859033,
-        "Date": 1635742800000,
+        "Observed_Level": 969.662783,
+        "Date": 1641535200000,
         "Target_Storage": 3810,
-        "Observed_Storage": "2,709",
-        "Supply_Status_Percent": 71,
+        "Observed_Storage": "2,934",
+        "Supply_Status_Percent": "77.0",
         "ObjectId": 4
       },
       "geometry": {
@@ -199,11 +200,11 @@
         "LONG": -100.1631248,
         "Community": "Dauphin",
         "Target_Level": 1274,
-        "Observed_Level": 1273.809309,
-        "Date": 1635742800000,
+        "Observed_Level": 1272.306626,
+        "Date": 1641535200000,
         "Target_Storage": 2600,
-        "Observed_Storage": "2,550",
-        "Supply_Status_Percent": 98,
+        "Observed_Storage": "1,562",
+        "Supply_Status_Percent": "60.1",
         "ObjectId": 5
       },
       "geometry": {
@@ -218,11 +219,11 @@
         "LONG": -98.95056088,
         "Community": null,
         "Target_Level": 1482,
-        "Observed_Level": 1481.665775,
-        "Date": 1635742800000,
+        "Observed_Level": 1481.990361,
+        "Date": 1641535200000,
         "Target_Storage": 450,
-        "Observed_Storage": "426.6042483",
-        "Supply_Status_Percent": 95,
+        "Observed_Storage": "532.4578162",
+        "Supply_Status_Percent": "118.3",
         "ObjectId": 6
       },
       "geometry": {
@@ -237,11 +238,11 @@
         "LONG": -99.03106242,
         "Community": null,
         "Target_Level": 1174,
-        "Observed_Level": 1168.318258,
-        "Date": 1635742800000,
+        "Observed_Level": 1168.301666,
+        "Date": 1641535200000,
         "Target_Storage": 2990,
-        "Observed_Storage": "1,638",
-        "Supply_Status_Percent": 55,
+        "Observed_Storage": "1,516",
+        "Supply_Status_Percent": "50.7",
         "ObjectId": 7
       },
       "geometry": {
@@ -256,11 +257,11 @@
         "LONG": -98.62714408,
         "Community": null,
         "Target_Level": 1537,
-        "Observed_Level": 1535.914202,
-        "Date": 1635742800000,
+        "Observed_Level": 1535.978628,
+        "Date": 1641535200000,
         "Target_Storage": 1150,
-        "Observed_Storage": "1,053",
-        "Supply_Status_Percent": 92,
+        "Observed_Storage": "1,063",
+        "Supply_Status_Percent": "92.4",
         "ObjectId": 8
       },
       "geometry": {
@@ -275,11 +276,11 @@
         "LONG": -100.4108662,
         "Community": "Deloraine",
         "Target_Level": 1772,
-        "Observed_Level": 1767.667796,
-        "Date": 1635742800000,
+        "Observed_Level": 1767.426529,
+        "Date": 1641535200000,
         "Target_Storage": 1400,
-        "Observed_Storage": "1,080",
-        "Supply_Status_Percent": 77,
+        "Observed_Storage": "1,054",
+        "Supply_Status_Percent": "75.3",
         "ObjectId": 9
       },
       "geometry": {
@@ -294,11 +295,11 @@
         "LONG": -99.44510308,
         "Community": null,
         "Target_Level": 1178,
-        "Observed_Level": 1176.402924,
-        "Date": 1635742800000,
+        "Observed_Level": 1176.684449,
+        "Date": 1641535200000,
         "Target_Storage": 3800,
-        "Observed_Storage": "2,961",
-        "Supply_Status_Percent": 78,
+        "Observed_Storage": "2,971",
+        "Supply_Status_Percent": "78.2",
         "ObjectId": 10
       },
       "geometry": {
@@ -313,11 +314,11 @@
         "LONG": -99.823,
         "Community": null,
         "Target_Level": 1682,
-        "Observed_Level": 1681.260713,
-        "Date": 1635742800000,
+        "Observed_Level": 1681.431145,
+        "Date": 1641535200000,
         "Target_Storage": 1688,
-        "Observed_Storage": "1,485",
-        "Supply_Status_Percent": 88,
+        "Observed_Storage": "1,438",
+        "Supply_Status_Percent": "85.2",
         "ObjectId": 11
       },
       "geometry": {
@@ -332,16 +333,54 @@
         "LONG": -100.033847,
         "Community": "Boissevain",
         "Target_Level": 1697,
-        "Observed_Level": 1694.858329,
-        "Date": 1635742800000,
+        "Observed_Level": 1694.941016,
+        "Date": 1641535200000,
         "Target_Storage": 505,
-        "Observed_Storage": "357.6331094",
-        "Supply_Status_Percent": 71,
+        "Observed_Storage": "361.9328422",
+        "Supply_Status_Percent": "71.0",
         "ObjectId": 12
       },
       "geometry": {
         "x": 146387,
         "y": 1079315
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Kenton Reservoir",
+        "LAT": 49.97622945,
+        "LONG": -100.6067884,
+        "Community": null,
+        "Target_Level": 1448,
+        "Observed_Level": 1446.206268,
+        "Date": 1637820000000,
+        "Target_Storage": 600,
+        "Observed_Storage": "505.1567037",
+        "Supply_Status_Percent": "84.2",
+        "ObjectId": 13
+      },
+      "geometry": {
+        "x": 86123,
+        "y": 955204
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Killarney Lake",
+        "LAT": 49.1749995,
+        "LONG": -99.66999432,
+        "Community": null,
+        "Target_Level": 1615,
+        "Observed_Level": 1612.859309,
+        "Date": 1636437600000,
+        "Target_Storage": 7360,
+        "Observed_Storage": "6,375",
+        "Supply_Status_Percent": "86.6",
+        "ObjectId": 14
+      },
+      "geometry": {
+        "x": 184658,
+        "y": 1085174
       }
     },
     {
@@ -355,8 +394,8 @@
         "Date": 1632805200000,
         "Target_Storage": 520,
         "Observed_Storage": "443.3448951",
-        "Supply_Status_Percent": 85,
-        "ObjectId": 13
+        "Supply_Status_Percent": "85.0",
+        "ObjectId": 15
       },
       "geometry": {
         "x": 124320,
@@ -371,53 +410,15 @@
         "Community": null,
         "Target_Level": 840,
         "Observed_Level": 839.878426,
-        "Date": 1634187600000,
+        "Date": 1634101200000,
         "Target_Storage": 1770,
-        "Observed_Storage": "1,751",
-        "Supply_Status_Percent": 99,
-        "ObjectId": 14
+        "Observed_Storage": "1,754",
+        "Supply_Status_Percent": "99.1",
+        "ObjectId": 16
       },
       "geometry": {
         "x": 472286,
         "y": 1062397
-      }
-    },
-    {
-      "attributes": {
-        "NAME": "Kenton Reservoir",
-        "LAT": 49.97622945,
-        "LONG": -100.6067884,
-        "Community": null,
-        "Target_Level": 1448,
-        "Observed_Level": 1446.357186,
-        "Date": 1632805200000,
-        "Target_Storage": 600,
-        "Observed_Storage": "508.9296582",
-        "Supply_Status_Percent": 85,
-        "ObjectId": 15
-      },
-      "geometry": {
-        "x": 86123,
-        "y": 955204
-      }
-    },
-    {
-      "attributes": {
-        "NAME": "Killarney Lake",
-        "LAT": 49.1749995,
-        "LONG": -99.66999432,
-        "Community": null,
-        "Target_Level": 1615,
-        "Observed_Level": 1612.724795,
-        "Date": 1635138000000,
-        "Target_Storage": 7360,
-        "Observed_Storage": "6,313",
-        "Supply_Status_Percent": 86,
-        "ObjectId": 16
-      },
-      "geometry": {
-        "x": 184658,
-        "y": 1085174
       }
     }
   ]
